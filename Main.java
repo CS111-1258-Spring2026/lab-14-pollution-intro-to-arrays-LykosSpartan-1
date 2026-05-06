@@ -110,7 +110,7 @@ public static void printGraph(double[] co2Levels, int[] year)
     System.out.print(year[i] + " ");
     printBar(co2Levels[i]);
   }
-  System.out.println();
+
   System.out.println("From " + year[0] + " to " + year[19] + ", the average atmospheric CO₂ levels across the globe has grown " + String.format("%.2f", co2Levels[19] - co2Levels[0]) + " ppm");
 }
 
