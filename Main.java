@@ -86,7 +86,6 @@ class Main
     //Column titles of graph
     System.out.print("Year");
     UtilityBelt.printCentered(55,"CO₂ in Atmosphere (ppm)");    
-    System.out.println();
     printGraph(co2Levels, year);
     
 
