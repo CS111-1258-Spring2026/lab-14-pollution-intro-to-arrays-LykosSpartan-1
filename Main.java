@@ -61,26 +61,10 @@ class Main
   co2Levels[19] = 414.24; //2020
 
   int [] year = new int[20];
-  year[0] = 2001;
-  year[1] = 2002;
-  year[2] = 2003;
-  year[3] = 2004;
-  year[4] = 2005;
-  year[5] = 2006;
-  year[6] = 2007;
-  year[7] = 2008;
-  year[8] = 2009;
-  year[9] = 2010;
-  year[10] = 2011;
-  year[11] = 2012;
-  year[12] = 2013;
-  year[13] = 2014;
-  year[14] = 2015;
-  year[15] = 2016; 
-  year[16] = 2017;
-  year[17] = 2018;
-  year[18] = 2019;
-  year[19] = 2020;
+  for(int i = 0; i < year.length; i++)
+  {
+    year[i] = 2001 + i;
+  }
 
 
     //Column titles of graph
