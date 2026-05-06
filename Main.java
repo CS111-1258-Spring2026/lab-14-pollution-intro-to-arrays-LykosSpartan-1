@@ -100,7 +100,7 @@ class Main
    {
      System.out.print("🛢");
    }
-   System.out.println(" " + co2Level + " ppm"); //prints the level at the end of the bar
+   System.out.println(" " + co2Level ); //prints the level at the end of the bar
 }
 
 public static void printGraph(double[] co2Levels, int[] year)
