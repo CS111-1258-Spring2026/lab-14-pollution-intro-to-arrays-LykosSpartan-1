@@ -98,7 +98,7 @@ class Main
    int barrels = (int)(co2Level - 360); // 360 is the lowest level, so we subtract that to get the number of symbols to print
    for(int i = 0; i < barrels; i++)
    {
-     System.out.print("🛢 ");
+     System.out.print("🛢");
    }
    System.out.println(" " + co2Level + " ppm"); //prints the level at the end of the bar
 }
